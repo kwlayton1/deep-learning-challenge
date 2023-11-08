@@ -23,5 +23,5 @@
 
 ## 3.	Summary: 
 ###    The best accuracy achieved for this challenge is 72.944%. Here is the setup for the Optimized (final) model ->  3 hidden layers with 10 neurons each, all using 
-activation function ‘tanh’. I also added an Adam optimizer, that noticeably boosted the accuracy. It may be possible to meet the 75% accuracy using a more preprocessing (binning  or removing more columns etc.).
+###    activation function ‘tanh’. I also added an Adam optimizer, that noticeably boosted the accuracy. It may be possible to meet the 75% accuracy using a more preprocessing ###    (binning  or removing more columns etc.).
 ###    As neural network models are continuously evolving, I believe there is a model that can meet and exceed the 75% accuracy requirement.
