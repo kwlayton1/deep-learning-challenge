@@ -24,5 +24,5 @@
 
 ## 3.	Summary: 
 ###   The accuracy achieved for this model is 79.17% and is above the 75% target!
-###   Hre is the setup for the Optimized (final) model ->  3 hidden layers with 10 neurons each, all using activation function ‘tanh’. I also added an Adam optimizer, that    ###   boosted the accuracy to 72.944%. Thanks to my tutor 'Geronimo Perez'. His suggestion to not drop the feature ‘NAME’ and bin it with value_counts() 6 as the cutoff for ###   'Other'. This narrowed in the data and created a much higher accuracy.
+###   Hre is the setup for the Optimized (final) model ->  3 hidden layers with 10 neurons each, all using activation function ‘tanh’. I also added an Adam optimizer, that     boosted the accuracy to 72.944%. Thanks to my tutor 'Geronimo Perez'. His suggestion to not drop the feature ‘NAME’ and bin it with value_counts() 6 as the cutoff for    'Other'. This narrowed in the data and created a much higher accuracy.
 
