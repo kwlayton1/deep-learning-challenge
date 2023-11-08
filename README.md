@@ -7,18 +7,19 @@
 ###    •	The following variables were dropped EIN and NAME (identification columns).
 ###    •	The target variable is IS_SUCCESSFUL (was the money used effectively).
 ###    •	The following variables are the features of the model:
-####       APPLICATION_TYPE—Alphabet Soup application type *Used binning for better results.
-####       AFFILIATION—Affiliated sector of industry
-####       CLASSIFICATION—Government organization classification *Used binning.
-####       USE_CASE—Use case for funding
-####       ORGANIZATION—Organization type
-####       STATUS—Active status
-####       INCOME_AMT—Income classification
-####       SPECIAL_CONSIDERATIONS—Special considerations for application
-####       ASK_AMT—Funding amount requested
+####         APPLICATION_TYPE—Alphabet Soup application type *Used binning for better results.
+####         AFFILIATION—Affiliated sector of industry
+####         CLASSIFICATION—Government organization classification *Used binning.
+####         USE_CASE—Use case for funding
+####         ORGANIZATION—Organization type
+####         STATUS—Active status
+####         INCOME_AMT—Income classification
+####         SPECIAL_CONSIDERATIONS—Special considerations for application
+####         ASK_AMT—Funding amount requested
 
 ### o	Compiling, Training, and Evaluating the Model
-###     1st  attempt – I used 2 hidden layers, first one had 8 neurons and the second had 5. The activation function ‘relu’ was used for the hidden layers. The number of Epochs was 100. I started with this setup using one of our class examples.
+###     1st  attempt – I used 2 hidden layers, first one had 8 neurons and the second had 5. The activation function ‘relu’ was used for the hidden layers. The number of 
+###      Epochs was 100. I started with this setup using one of our class examples.
 ###     I reran the model many times using different activation functions, 150 epochs and 3 hidden layers, using 10 neurons each. My best accuracy was just under 72. 
 
 ## 3.	Summary: 
