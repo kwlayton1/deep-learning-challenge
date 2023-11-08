@@ -19,7 +19,7 @@
 
 ### o	Compiling, Training, and Evaluating the Model
 ###     1st  attempt – I used 2 hidden layers, first one had 8 neurons and the second had 5. The activation function ‘relu’ was used for the hidden layers. The number of Epochs was 100. I started with this setup using one of our class examples.
-I reran the model many times using different activation functions, 150 epochs and 3 hidden layers, using 10 neurons each. My best accuracy was just under 72. 
+###     I reran the model many times using different activation functions, 150 epochs and 3 hidden layers, using 10 neurons each. My best accuracy was just under 72. 
 
 ## 3.	Summary: 
 ###    The best accuracy achieved for this challenge is 72.944%. Here is the setup for the Optimized (final) model ->  3 hidden layers with 10 neurons each, all using 
