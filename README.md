@@ -3,7 +3,7 @@
 ## As I only received a 92 on this assignment, I am adding more explanation and adjusting the code. 
 ## The number of Epochs was changed to 50 from 100  (for more efficient running time of the code). I also adjusted the model to use ReLU activation functions on the hidden layers, as this is more appropriate for the input data e.g simple and computationally efficient. I had Tanh in the first attempt because it was the last one I tried and it produced about the same accuracy as all of the other functions. I studied this and Tanh is not really appropriate as it squashes the output to be between -1 and 1, making it zero-centered.  
 ## Also, I am aware that adding the NAME back into the features for better accuracy in the first submission also affects the training of the model. Now the NAME of the applicant will influence model. In this scenario I would be sure to convey this information to the Alphabet Soup Charity team. The accuracy is now 79.29%
-
+## --------------------------------------------------------------
 
 ## 1.	Overview: 
 ### The purpose of the analysis is to develop a binary classifier tool (deep learning model). This tool will be used to predict whether an applicant will be successful if funded by Alphabet Soup (a nonprofit foundation). The accuracy target is => 75%.  
